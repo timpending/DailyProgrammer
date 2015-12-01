@@ -1,6 +1,6 @@
 // Created by CJ R. December 01 2015
 
-function countLetters() {
+function countLetters(input) {
     // a place to store the counters
     var counters = {};
 
