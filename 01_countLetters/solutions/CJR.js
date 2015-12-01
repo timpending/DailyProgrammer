@@ -23,7 +23,8 @@ function countLetters(input) {
     }
 
     // print out the char counts
-    console.log(JSON.stringify(counters));
+    return JSON.stringify(counters);
 }
 
-countLetters('The quick brown fox jumps over the lazy dog and the sleeping cat early in the day.');
+var result = countLetters('The quick brown fox jumps over the lazy dog and the sleeping cat early in the day.');
+console.log(result);
