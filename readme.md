@@ -8,10 +8,12 @@ Submit a pull request with your solution added to the solutions folder of the gi
 
 # Challenge Sources
 
-[Codewars](http://www.codewars.com/)
+[gSchool Challenge Repo](https://github.com/gSchool/challenges/tree/master/Programming)
+
+[Reddit /r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer/)
 
 [exercism.io](http://exercism.io/languages/javascript)
 
-[Project Euler](https://projecteuler.net/archives)
+[Codewars](http://www.codewars.com/)
 
-[Reddit /r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer/)
+[Project Euler](https://projecteuler.net/archives)
