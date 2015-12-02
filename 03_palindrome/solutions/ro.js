@@ -3,11 +3,13 @@ function reverse(string) {
 }
 
 function isPalindrome(input) {
-  if (input == reverse(input)) {
-    console.log('Yes you have a palindrome!');
+  input = input.toLowerCase();
+  var reversedInput = reverse(input);
+  if (input == reversedInput) {
+    console.log('Yes ' + input + ' is a palindrome! ' + input + ' equals ' + reversedInput);
   } else {
-    console.log('Sorry, this is not a palindrome');
+    console.log('Sorry, ' + input + ' is not a palindrome. ' + input + ' does not equal ' + reversedInput);
   }
 }
 
-isPalindrome('dog');
+isPalindrome('Bob');
