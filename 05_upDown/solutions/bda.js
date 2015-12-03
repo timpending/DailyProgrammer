@@ -1,9 +1,8 @@
 function path(array) {
   return array.slice(1).map(function(element, i) {
     var difference = element - array[i];
-    if (difference > 0) return 'up';
-    else if (difference < 0) return 'down';
-    else return 'even'
+    if (difference === 0) return 'even';
+    else return (difference < 0) ? 'down' : 'up';
   });
 }
 
