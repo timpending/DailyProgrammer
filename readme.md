@@ -69,3 +69,7 @@ Challenges getting too easy for you? Try solving the challenge under one of thes
 [Codewars](http://www.codewars.com/)
 
 [Project Euler](https://projecteuler.net/archives)
+
+[Code Chef](https://www.codechef.com/problems/school/)
+
+[Hacker Rank](https://www.hackerrank.com/domains)
