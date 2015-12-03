@@ -23,6 +23,8 @@ Each challenge folder contains a readme with a problem description.
 * [02 - Ramp Numbers](02_rampNumbers)
 * [03 - Palindrome](03_palindrome)
 * [04 - Anagrams](04_anagrams)
+* [05 - Up Down](05_upDown)
+* [06 - Longest String](06_longestString)
 
 ## Tips
 
@@ -44,8 +46,19 @@ The more contributions the better! After coming up with your own solution, its r
 
 ## Activate Hard Mode
 
-* For added difficulty, try to solve the problem using the shortest number of lines/characters as possible. When submitting a pull request, append the word _golf_ to your file name.
-* This is known as [Code Golf](https://en.wikipedia.org/wiki/Code_golf)
+Challenges getting too easy for you? Try solving the challenge under one of these constraints.
+
+
+* Solve a challenge with your laptop brightness all the way down.
+
+* Solve a challenge using the shortest number of lines/characters as possible. When submitting a pull request, append the word _golf_ to your file name.
+  * This is known as [Code Golf](https://en.wikipedia.org/wiki/Code_golf)
+
+
+* Solve a challenge using _only_ [pure functions](https://en.wikipedia.org/wiki/Pure_function).
+
+
+* Solve a challenge in another language.
 
 ## Challenge Sources
 
@@ -58,3 +71,7 @@ The more contributions the better! After coming up with your own solution, its r
 [Codewars](http://www.codewars.com/)
 
 [Project Euler](https://projecteuler.net/archives)
+
+[Code Chef](https://www.codechef.com/problems/school/)
+
+[Hacker Rank](https://www.hackerrank.com/domains)
