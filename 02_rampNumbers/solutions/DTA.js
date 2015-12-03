@@ -14,3 +14,6 @@ function rampNumber(num) {
   //string is a valid Ramp Number
   return true;
 }
+
+console.log(112233344559);
+console.log(111221155);

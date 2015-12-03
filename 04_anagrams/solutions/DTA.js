@@ -19,11 +19,7 @@ function sortWord(word) {
   return word.split("").sort().join("");
 }
 
-/* Testing for anagram function */
-console.log('\nTesting for anagram function');
-console.log(anagram("examples", "pameesxl"));
 console.log(anagram("examples", 'lesexamp'));
 console.log(anagram("examples", 'leseasdmp'));
-console.log(anagram("apple", 'a'));
 console.log(anagram("apple", 'eLppa'));
-console.log(anagram("apple", 'Ppale'));
+console.log(anagram("apple", 'app'));

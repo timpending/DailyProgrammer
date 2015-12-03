@@ -21,7 +21,7 @@ function sanitize(string) {
   return string.toLowerCase().replace(/\s/g, '');
 }
 
-console.log('Testing for palindrome function');
 console.log(palindrome("poop"));
-console.log(palindrome("A but tuba"));
 console.log(palindrome("Alula"));
+console.log(palindrome("A but tuba"));
+console.log(palindrome("Not a palindrome"));
