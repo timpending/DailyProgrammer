@@ -23,6 +23,8 @@ Each challenge folder contains a readme with a problem description.
 * [02 - Ramp Numbers](02_rampNumbers)
 * [03 - Palindrome](03_palindrome)
 * [04 - Anagrams](04_anagrams)
+* [05 - Up Down](05_upDown)
+* [06 - Longest String](06_longestString)
 
 ## Tips
 
