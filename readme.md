@@ -1,12 +1,53 @@
 # Daily Programmer
 
-Each folder contains a readme with a problem description.
+```
+██████╗  █████╗ ██╗██╗  ██╗   ██╗                                                    
+██╔══██╗██╔══██╗██║██║  ╚██╗ ██╔╝                                                    
+██║  ██║███████║██║██║   ╚████╔╝                                                     
+██║  ██║██╔══██║██║██║    ╚██╔╝                                                      
+██████╔╝██║  ██║██║███████╗██║                                                       
+╚═════╝ ╚═╝  ╚═╝╚═╝╚══════╝╚═╝                                                       
 
-# Contribute solutions
+██████╗ ██████╗  ██████╗  ██████╗ ██████╗  █████╗ ██████╗ ███╗   ███╗███████╗██████╗
+██╔══██╗██╔══██╗██╔═══██╗██╔════╝ ██╔══██╗██╔══██╗██╔══██╗████╗ ████║██╔════╝██╔══██╗
+██████╔╝██████╔╝██║   ██║██║  ███╗██████╔╝███████║██████╔╝██╔████╔██║█████╗  ██████╔╝
+██╔═══╝ ██╔══██╗██║   ██║██║   ██║██╔══██╗██╔══██║██╔══██╗██║╚██╔╝██║██╔══╝  ██╔══██╗
+██║     ██║  ██║╚██████╔╝╚██████╔╝██║  ██║██║  ██║██║  ██║██║ ╚═╝ ██║███████╗██║  ██║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝
+```
 
-Submit a pull request with your solution added to the solutions folder of the given problem. Name the file your initials, and be sure to add a 'created by' comment at the top of the file.
+Choose a challenge folder to begin your Daily Challenge.
+Each challenge folder contains a readme with a problem description.
 
-# Challenge Sources
+* [01 - Count Letters](01_countLetters)
+* [02 - Ramp Numbers](02_rampNumbers)
+* [03 - Palindrome](03_palindrome)
+* [04 - Anagrams](04_anagrams)
+
+## Tips
+
+ * Try, try, try to do at least one challenge a day.
+ * Problem solving is a skill that can be sharpened with dedicated practice.
+ * Think ahead! Break down the problem _before_ you write a single line of code.
+ * Write out comments in plain english (non programmer terms) that detail what needs to be done to use the given input to create the expected output.
+ * After you have broken down the problem, if needed, search the internet for how to do specific tasks, __NOT__ for the solution to the entire problem.
+
+## Contribute solutions
+
+If you come up with a solution that is not yet present in the repo please submit a pull request with your solution added to the solutions folder of the given problem.
+
+The more contributions the better! After coming up with your own solution, its really fun to compare/contrast your solution with the varying coding styles _and_  wide ranges of problem solving styles.
+
+# When submitting a pull request:
+* Name the file your name, alias or initials
+* Be sure to add a 'created by' comment at the top of the file
+
+## Activate Hard Mode
+
+* For added difficulty, try to solve the problem using the shortest number of lines/characters as possible. When submitting a pull request, append the word _golf_ to your file name.
+* This is known as [Code Golf](https://en.wikipedia.org/wiki/Code_golf)
+
+## Challenge Sources
 
 [gSchool Challenge Repo](https://github.com/gSchool/challenges/tree/master/Programming)
 
