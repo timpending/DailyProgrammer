@@ -15,5 +15,5 @@ function rampNumber(num) {
   return true;
 }
 
-console.log(112233344559);
-console.log(111221155);
+console.log(rampNumber(112233344559));
+console.log(rampNumber(111221155));
