@@ -1,3 +1,5 @@
+// created by Ben
+
 function path(array) {
   return array.slice(1).map(function(element, i) {
     var difference = element - array[i];
