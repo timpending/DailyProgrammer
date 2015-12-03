@@ -44,8 +44,19 @@ The more contributions the better! After coming up with your own solution, its r
 
 ## Activate Hard Mode
 
-* For added difficulty, try to solve the problem using the shortest number of lines/characters as possible. When submitting a pull request, append the word _golf_ to your file name.
-* This is known as [Code Golf](https://en.wikipedia.org/wiki/Code_golf)
+Challenges getting too easy for you? Try solving the challenge under one of these constraints.
+
+
+* Solve a challenge with your laptop brightness all the way down.
+
+* Solve a challenge using the shortest number of lines/characters as possible. When submitting a pull request, append the word _golf_ to your file name.
+  * This is known as [Code Golf](https://en.wikipedia.org/wiki/Code_golf)
+
+
+* Solve a challenge using _only_ [pure functions](https://en.wikipedia.org/wiki/Pure_function).
+
+
+* Solve a challenge in another language.
 
 ## Challenge Sources
 
