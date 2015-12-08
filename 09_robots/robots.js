@@ -35,7 +35,7 @@ Robot.prototype.moveTwo = function(dir) {
 };
 
 Robot.prototype.onMarker = function () {
-  return this.x === marker;
+  return this.x === challenge.marker;
 };
 
 var randomNeg = Math.floor(Math.random()*100) * -1
