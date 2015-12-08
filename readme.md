@@ -25,6 +25,8 @@ Each challenge folder contains a readme with a problem description.
 * [04 - Anagrams](04_anagrams)
 * [05 - Up Down](05_upDown)
 * [06 - Longest String](06_longestString)
+* [07 - Find Greater](07_findGreater)
+* [08 - Combine and Sort](08_combineAndSort)
 
 ## Tips
 
