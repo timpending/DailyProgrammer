@@ -14,6 +14,22 @@ const garland = (s) => {
   return 0
 }
 
+const garland = (s) => {
+  let beginning = s.split('')
+  let ending = s.split('')
+  function tick () {
+    beginning.pop()
+    ending.shift()
+    return beginning.length
+  }
+  while(tick()) {
+    if (beginning.join('') === ending.join('')) {
+      return beginning.length
+    }
+  }
+  return 0
+}
+
 console.log('programmer', garland('programmer'))
 console.log('ceramic', garland('ceramic'))
 console.log('onion', garland('onion'))
