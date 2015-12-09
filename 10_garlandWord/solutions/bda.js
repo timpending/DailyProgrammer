@@ -14,11 +14,13 @@ function garland(word) {
 }
 
 
-[ garland('programmer'),
-  garland('ceramic'),
-  garland('onion'),
-  garland('alfalfa'),
-  garland('hotshots'),
-  garland('abracadabra'),
-  garland('couscous')]
-    .forEach(function(answer) { console.log(answer); });
+[ 'programmer',
+  'ceramic',
+  'onion',
+  'alfalfa',
+  'hotshots',
+  'abracadabra',
+  'couscous']
+  .forEach(function(word) {
+    console.log(word + ':', garland(word));
+  });
