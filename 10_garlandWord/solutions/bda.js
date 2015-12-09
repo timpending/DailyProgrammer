@@ -10,8 +10,7 @@
 function garland(word) {
   if (word === arguments[1]) return word.length;
   var word2 = arguments[1] || word;
-  var len = word.length - 1;
-  return garland(word.substr(0, len), word2.substr(word2.length - len));
+  return garland(word.substr(0, word.length - 1), word2.substr(1));
 }
 
 
