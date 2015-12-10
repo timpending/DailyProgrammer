@@ -28,6 +28,7 @@ Each challenge folder contains a readme with a problem description.
 * [07 - Find Greater](07_findGreater)
 * [08 - Combine and Sort](08_combineAndSort)
 * [10 - Garland Word](10_garlandWord)
+* [11 - Diagonal Sum](11_diagonalSum)
 
 ## Tips
 

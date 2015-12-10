@@ -32,4 +32,5 @@ var square5 =
 The sum of the diagonal. (First value in the first array, plus second value in second array, plus third value in third array... etc.)
 
 diagonalSum(square4) // => 4
+
 diagonalSum(square5) // => 19
