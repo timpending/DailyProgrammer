@@ -5,7 +5,7 @@ function parensChecker(string) {
     else if (string[i] === ')') depth--;
     if (depth < 0) return false;
   }
-  return true;
+  return depth === 0;
 }
 
 
@@ -14,3 +14,4 @@ console.log(parensChecker("()(((())))")); //=> true
 console.log(parensChecker("())))(")); //=> false
 
 console.log(parensChecker(")(")); //=> false
+console.log(parensChecker("()(")); //=> false
