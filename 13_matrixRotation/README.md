@@ -1,3 +1,5 @@
+![gif](http://media.giphy.com/media/quEsMOrr3hmQ8/giphy.gif)
+
 # Matrix
 
 In mathematics, a matrix (plural matrices) is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns that is interpreted and manipulated in certain prescribed ways. One such way is to state the dimensions of the matrix. For example, the dimensions of the matrix below are 2 × 3 (read "two by three"), because there are two rows and three columns.
