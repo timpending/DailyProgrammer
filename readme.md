@@ -30,6 +30,7 @@ Each challenge folder contains a readme with a problem description.
 * [10 - Garland Word](10_garlandWord)
 * [11 - Diagonal Sum](11_diagonalSum)
 * [12 - Parens Checker](12_parensChecker)
+* [14 - Reverse Polish](14_reversePolish)
 
 ## Tips
 
