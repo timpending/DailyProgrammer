@@ -36,7 +36,7 @@ function calculateRPN(string) {
     return 'ERROR!'
   }
 
-  return stack[0];
+  return stack.pop();
 }
 
 console.log(calculateRPN('5 1 2 + 4 x + 3 -')) //14
