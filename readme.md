@@ -33,6 +33,7 @@ Each challenge folder contains a readme with a problem description.
 * [13 - Matrix Rotation](13_matrixRotation)
 * [14 - Reverse Polish](14_reversePolish)
 * [15 - Curry Function](15_curryFunction)
+* [16 - Zip Arrays](16_zipArrays)
 
 ## Tips
 
