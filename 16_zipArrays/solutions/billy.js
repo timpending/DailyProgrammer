@@ -1,6 +1,5 @@
 function zipArray(array1, array2){
   var zipped = [];
-  var a, b = 0;
   for (i=0; i<array1.length; i++){
     zipped.push(array1[i]);
     zipped.push(array2[i]);
