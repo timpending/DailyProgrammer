@@ -3,7 +3,7 @@
 Write code that:
 
 * Reads a CSV file
-* Prints out a table suitable for Markdown
+* Prints out on your console a table suitable for Markdown
 
 ## Examples
 
@@ -18,6 +18,8 @@ Duane,Schowalter,10771 Keaton Knoll
 Laurence,Schuster,610 Odell Point
 ```
 
+Output:
+
 ```
 First     | Last       | Address               
 --------- | ---------- | ----------------------
@@ -27,3 +29,13 @@ Marlon    | Hahn       | 307 Bradtke Grove
 Duane     | Schowalter | 10771 Keaton Knoll    
 Laurence  | Schuster   | 610 Odell Point       
 ```
+
+## Usage
+
+Import the csv file:
+
+`var csv = require('../csv')`
+
+Run js from the terminal:
+
+`node [yourSolution].js`
