@@ -36,6 +36,7 @@ Each challenge folder contains a readme with a problem description.
 * [15 - Curry Function](15_curryFunction)
 * [16 - Zip Arrays](16_zipArrays)
 * [17 - CSV to Markdown](17_CSVtoMD)
+* [18 - Game of Threes](18_gameOfThrees)
 
 ## Tips
 
