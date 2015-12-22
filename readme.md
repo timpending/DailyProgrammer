@@ -27,6 +27,7 @@ Each challenge folder contains a readme with a problem description.
 * [06 - Longest String](06_longestString)
 * [07 - Find Greater](07_findGreater)
 * [08 - Combine and Sort](08_combineAndSort)
+* [09 - Robots](09_robots)
 * [10 - Garland Word](10_garlandWord)
 * [11 - Diagonal Sum](11_diagonalSum)
 * [12 - Parens Checker](12_parensChecker)
@@ -34,6 +35,8 @@ Each challenge folder contains a readme with a problem description.
 * [14 - Reverse Polish](14_reversePolish)
 * [15 - Curry Function](15_curryFunction)
 * [16 - Zip Arrays](16_zipArrays)
+* [17 - CSV to Markdown](17_CSVtoMD)
+* [18 - Game of Threes](18_gameOfThrees)
 
 ## Tips
 
