@@ -8,15 +8,12 @@ function gameOfThrees(number) {
     console.log(number + ' 0')
     gameOfThrees(number / 3)
   }
-  else {
-    if ((number - 1) % 3 === 0) {
-      console.log(number + ' -1')
-      gameOfThrees((number - 1) / 3)
-    }
-    else if ((number + 1) % 3 === 0) {
-      console.log(number + ' 1')
-      gameOfThrees((number + 1) / 3)
-    }
+  else if ((number - 1) % 3 === 0) {
+    console.log(number + ' -1')
+    gameOfThrees((number - 1) / 3)
+  } else {
+    console.log(number + ' 1')
+    gameOfThrees((number + 1) / 3)
   }
 }
 
