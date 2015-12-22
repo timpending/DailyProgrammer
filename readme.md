@@ -53,6 +53,8 @@ If you come up with a solution that is not yet present in the repo please submit
 The more contributions the better! After coming up with your own solution, its really fun to compare/contrast your solution with the varying coding styles _and_  wide ranges of problem solving styles.
 
 # When submitting a pull request:
+* Create a challenge specific branch for your pull request.
+ * If you have already committed many solutions locally, "Cherry Pick" the specific challenge commit on a separate branch.
 * Name the file your name, alias or initials
 * Be sure to add a 'created by' comment at the top of the file
 
