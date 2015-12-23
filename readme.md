@@ -37,6 +37,7 @@ Each challenge folder contains a readme with a problem description.
 * [16 - Zip Arrays](16_zipArrays)
 * [17 - CSV to Markdown](17_CSVtoMD)
 * [18 - Game of Threes](18_gameOfThrees)
+* [19 - Word Cloud](19_wordCloud)
 
 ## Tips
 
@@ -53,6 +54,8 @@ If you come up with a solution that is not yet present in the repo please submit
 The more contributions the better! After coming up with your own solution, its really fun to compare/contrast your solution with the varying coding styles _and_  wide ranges of problem solving styles.
 
 # When submitting a pull request:
+* Create a challenge specific branch for your pull request.
+ * If you have already committed many solutions locally, "Cherry Pick" the specific challenge commit on a separate branch.
 * Name the file your name, alias or initials
 * Be sure to add a 'created by' comment at the top of the file
 
