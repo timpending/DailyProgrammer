@@ -55,7 +55,7 @@ The more contributions the better! After coming up with your own solution, its r
 
 # When submitting a pull request:
 * Create a challenge specific branch for your pull request.
- * If you have already committed many solutions locally, "Cherry Pick" the specific challenge commit on a separate branch.
+ * If you have already committed many solutions locally, "Cherry Pick" the specific challenge commit on a separate branch. How to do that [here](http://stackoverflow.com/questions/5256021/send-a-pull-request-on-github-for-only-latest-commit).
 * Name the file your name, alias or initials
 * Be sure to add a 'created by' comment at the top of the file
 
