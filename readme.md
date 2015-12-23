@@ -37,6 +37,7 @@ Each challenge folder contains a readme with a problem description.
 * [16 - Zip Arrays](16_zipArrays)
 * [17 - CSV to Markdown](17_CSVtoMD)
 * [18 - Game of Threes](18_gameOfThrees)
+* [19 - Word Cloud](19_wordCloud)
 
 ## Tips
 
