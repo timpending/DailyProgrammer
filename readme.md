@@ -27,6 +27,7 @@ Each challenge folder contains a readme with a problem description.
 * [06 - Longest String](06_longestString)
 * [07 - Find Greater](07_findGreater)
 * [08 - Combine and Sort](08_combineAndSort)
+* [09 - Robots](09_robots)
 * [10 - Garland Word](10_garlandWord)
 * [11 - Diagonal Sum](11_diagonalSum)
 * [12 - Parens Checker](12_parensChecker)
@@ -34,6 +35,9 @@ Each challenge folder contains a readme with a problem description.
 * [14 - Reverse Polish](14_reversePolish)
 * [15 - Curry Function](15_curryFunction)
 * [16 - Zip Arrays](16_zipArrays)
+* [17 - CSV to Markdown](17_CSVtoMD)
+* [18 - Game of Threes](18_gameOfThrees)
+* [19 - Word Cloud](19_wordCloud)
 
 ## Tips
 
@@ -50,6 +54,8 @@ If you come up with a solution that is not yet present in the repo please submit
 The more contributions the better! After coming up with your own solution, its really fun to compare/contrast your solution with the varying coding styles _and_  wide ranges of problem solving styles.
 
 # When submitting a pull request:
+* Create a challenge specific branch for your pull request.
+ * If you have already committed many solutions locally, "Cherry Pick" the specific challenge commit on a separate branch. How to do that [here](http://stackoverflow.com/questions/5256021/send-a-pull-request-on-github-for-only-latest-commit).
 * Name the file your name, alias or initials
 * Be sure to add a 'created by' comment at the top of the file
 
