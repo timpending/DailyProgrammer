@@ -1,14 +1,10 @@
-function getNumberLength(value) {
-  return Math.max(Math.floor(Math.log10(Math.abs(value))), 0) + 1;
-}
-
 function sumDigitsMaths(value) {
   var sum = 0;
   while(value > 0) {
     sum += value % 10;
     value = Math.floor(value / 10);
 
-    if(value == 0 && getNumberLength(sum) > 1) {
+    if(value == 0 && sum > 9) {
       value = sum;
       sum = 0;
     }
