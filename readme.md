@@ -38,6 +38,7 @@ Each challenge folder contains a readme with a problem description.
 * [17 - CSV to Markdown](17_CSVtoMD)
 * [18 - Game of Threes](18_gameOfThrees)
 * [19 - Word Cloud](19_wordCloud)
+* [20 - Sum of Digits](20_sumDigits)
 
 ## Tips
 
