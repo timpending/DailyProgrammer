@@ -1,7 +1,7 @@
 function sumDigits(number) {
   do {
     var string = String(number);
-    var digits = string.split('')
+    var digits = string.split('');
     number = 0;
     for (var i = 0; i < digits.length; i++) {
       number += Number(digits[i]);
