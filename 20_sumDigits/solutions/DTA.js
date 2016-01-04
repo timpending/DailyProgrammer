@@ -10,7 +10,7 @@ function sumDigits(number) {
 }
 
 function sumNumber(number) {
-  return number.toString(10).split("")
+  return number.toString().split("")
     .reduce(function(previousValue, currentValue) {
       return parseInt(previousValue) + parseInt(currentValue);
     })
