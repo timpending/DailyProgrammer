@@ -1,4 +1,5 @@
 function sumDigitsMaths(value) {
+  value = Math.abs(value);
   var sum = 0;
   while(value > 0) {
     sum += value % 10;
