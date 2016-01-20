@@ -1,6 +1,6 @@
 # Swiss Record Design
 
-Recreate this Swiss design poster in CSS + HTML.
+Recreate the graphic part of this Swiss design poster in CSS + HTML.
 
 ![Swiss Record Design Poster](./soland1957_lo-res_crop.jpg)
 
@@ -11,6 +11,7 @@ Recreate this Swiss design poster in CSS + HTML.
 
 ## Stretch
 
+* Do the text portion
 * Keep the HTML semantic
 * Keep the CSS classes sane and semantic
 * CSS animations
