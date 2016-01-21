@@ -39,6 +39,7 @@ Each challenge folder contains a readme with a problem description.
 * [18 - Game of Threes](18_gameOfThrees)
 * [19 - Word Cloud](19_wordCloud)
 * [20 - Sum of Digits](20_sumDigits)
+* [21 - Swiss Record Design](21_swissRecordDesign)
 
 ## Tips
 
