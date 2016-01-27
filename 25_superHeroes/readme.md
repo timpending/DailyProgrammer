@@ -1,16 +1,13 @@
-# BOWIEEEE
+# Super Heroes
 
 Recreate this poster.
 
 * Border
 * Background
-* Buttons
 * Title
 * Typography
 
-
-
-![Bowie](./david_bowie.jpeg)
+![Super Heroes](./movie.jpg)
 
 ## Stipulations
 
