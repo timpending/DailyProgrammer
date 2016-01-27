@@ -42,6 +42,7 @@ Each challenge folder contains a readme with a problem description.
 * [21 - Swiss Record Design](21_swissRecordDesign)
 * [22 - JSON Formatting](22_jsonFormatting)
 * [23 - Elevator Buttons](23_elevator)
+* [25 - Super Heroes](25_superHeroes)
 
 ## Tips
 
