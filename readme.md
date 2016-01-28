@@ -43,6 +43,7 @@ Each challenge folder contains a readme with a problem description.
 * [22 - JSON Formatting](22_jsonFormatting)
 * [23 - Elevator Buttons](23_elevator)
 * [25 - Super Heroes](25_superHeroes)
+* [26 - Star Wars](26_starWars)
 
 ## Tips
 
