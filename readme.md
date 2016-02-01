@@ -44,6 +44,7 @@ Each challenge folder contains a readme with a problem description.
 * [23 - Elevator Buttons](23_elevator)
 * [25 - Super Heroes](25_superHeroes)
 * [26 - Star Wars](26_starWars)
+* [27 - Blade Runner](27_bladeRunner)
 
 ## Tips
 
