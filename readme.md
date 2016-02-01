@@ -41,6 +41,11 @@ Each challenge folder contains a readme with a problem description.
 * [20 - Sum of Digits](20_sumDigits)
 * [21 - Swiss Record Design](21_swissRecordDesign)
 * [22 - JSON Formatting](22_jsonFormatting)
+* [23 - Elevator Buttons](23_elevator)
+* [25 - Super Heroes](25_superHeroes)
+* [26 - Star Wars](26_starWars)
+* [27 - Blade Runner](27_bladeRunner)
+
 ## Tips
 
  * Try, try, try to do at least one challenge a day.
