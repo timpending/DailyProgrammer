@@ -3,7 +3,7 @@ const fs = require('fs');
 fs.readFile('./../books.json', 'utf8', (error, json) => {
   var books = JSON.parse(json).data
   var formattedBooks = format(books)
-  console.log(formattedBooks);
+  console.log(format);
 })
 
 function format(data) {
