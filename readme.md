@@ -19,35 +19,6 @@
 Choose a challenge folder to begin your Daily Challenge.
 Each challenge folder contains a readme with a problem description.
 
-* [01 - Count Letters](01_countLetters)
-* [02 - Ramp Numbers](02_rampNumbers)
-* [03 - Palindrome](03_palindrome)
-* [04 - Anagrams](04_anagrams)
-* [05 - Up Down](05_upDown)
-* [06 - Longest String](06_longestString)
-* [07 - Find Greater](07_findGreater)
-* [08 - Combine and Sort](08_combineAndSort)
-* [09 - Robots](09_robots)
-* [10 - Garland Word](10_garlandWord)
-* [11 - Diagonal Sum](11_diagonalSum)
-* [12 - Parens Checker](12_parensChecker)
-* [13 - Matrix Rotation](13_matrixRotation)
-* [14 - Reverse Polish](14_reversePolish)
-* [15 - Curry Function](15_curryFunction)
-* [16 - Zip Arrays](16_zipArrays)
-* [17 - CSV to Markdown](17_CSVtoMD)
-* [18 - Game of Threes](18_gameOfThrees)
-* [19 - Word Cloud](19_wordCloud)
-* [20 - Sum of Digits](20_sumDigits)
-* [21 - Swiss Record Design](21_swissRecordDesign)
-* [22 - JSON Formatting](22_jsonFormatting)
-* [23 - Elevator Buttons](23_elevator)
-* [24 - Bowie](24_bowie)
-* [25 - Super Heroes](25_superHeroes)
-* [26 - Star Wars](26_starWars)
-* [27 - Blade Runner](27_bladeRunner)
-* [28 -Fuzzy Search](28_fuzzySearch)
-
 ## Tips
 
  * Try, try, try to do at least one challenge a day.
