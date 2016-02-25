@@ -1,6 +1,7 @@
 function sevenSegment(string) {
   var decimals = string.split('.')[1] || '';
-  var integer = addCommas(String(Math.floor(Number(string))));
+  var rounded = Math.floor(Number(string));
+  var integer = addCommas(String(rounded));
   var string = integer + (decimals ? '.' + decimals : '');
   return [0,1,2].map(function(line) {
     return string.split('').reduce(function(concatenated, digit) {
