@@ -17,9 +17,9 @@ sevenSegment(1);
 ```
 
 ```txt
-   \n
-  |\n
-  |\n
+
+  |
+  |
 ```
 
 ### 87
@@ -29,7 +29,11 @@ sevenSegment(87);
 ```
 
 ```txt
- _   _ \n
-|_|   |\n
-|_|   |\n
+ _   _
+|_|   |
+|_|   |
 ```
+
+## Hint
+
+* [JavaScript String newline character?](http://stackoverflow.com/questions/1155678/javascript-string-newline-character)
