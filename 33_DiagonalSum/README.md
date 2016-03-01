@@ -14,3 +14,9 @@ diagonals( [
 
 returns -> 20 // 1 + 5 + 9 + 3 + 5 + 7
 ```
+
+Stretch:
+
+Test drive it!
+
+Write tests to ensure your function covers all of the bases
