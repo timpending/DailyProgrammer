@@ -36,8 +36,10 @@ console.log(arr.length) // -> 0
 
 ```js
 function array() {
-  this.length = 0
-  this.push = function (value) {}
-  this.pop = function () {}
+  var newArray = {}
+  newArray.length = 0
+  newArray.push = function (value) {}
+  newArray.pop = function () {}
+  return newArray
 }
 ```
