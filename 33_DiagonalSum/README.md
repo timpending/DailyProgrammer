@@ -12,7 +12,7 @@ diagonals( [
   [ 7, 8, 9 ]
 ] );
 
-returns -> 20 // 1 + 5 + 9 + 3 + 5 + 7
+returns -> 30 // 1 + 5 + 9 + 3 + 5 + 7
 ```
 
 Stretch:
