@@ -15,6 +15,7 @@ array.prototype.push = function(item) {
 array.prototype.pop = function() {
   var item = this[--this.length];
   delete this[this.length];
+  this.length = Math.max(this.length, 0);
   return item;
 };
 
