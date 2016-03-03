@@ -73,11 +73,9 @@ describe('Word Problem', function() {
     assert(2 == wordy(question));
   });
 
-  xit('irrelevant', function() {
+  xit('returns 42 when question is irrelevant', function() {
     var question = 'Who is the president of the United States?';
-    var problem  = new WordProblem(question);
-
-    expect(problem.answer.bind(problem)).toThrow(new Error());
+    assert(42 == wordy(question));
   });
 
 });

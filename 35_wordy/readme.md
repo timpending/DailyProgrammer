@@ -55,3 +55,6 @@ What is 18 times 3 plus 16?
 What is 4 times 3 divided by 6?
 
 What is 4 plus 3 times 2?
+
+
+[Source](http://exercism.io/exercises/javascript/wordy/readme)
