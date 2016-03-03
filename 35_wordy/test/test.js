@@ -1,4 +1,4 @@
-var wordy = require('../solutions/CJ.js');
+var wordy = require('../solutions/yourfile.js');
 var assert = require('assert');
 
 describe('Word Problem', function() {
