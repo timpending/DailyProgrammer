@@ -1,53 +1,31 @@
 module.exports = function(question) {
-  question = question.replace("?", "")
-  var calculation = question.split(' ').reduce(function(list, word) {
-    word = testWord(word)
-    if (word) {
-      list.push(word)
-    }
-    return list
-  }, [])
-
-  if (calculation.length > 0) {
-    var answer = calculation[0]
-    for (var i = 1; i < calculation.length; i++) {
-      if (isNaN(calculation[i])) {
-        answer = calcs[calculation[i]](answer, calculation[ i + 1])
-      }
-    }
-    return answer
-  } else {
+  question = question.match(/-?\d+|(plus|minus|multiplied|times|divided)/g)
+  if (!question) {
     return 42
   }
-}
-
-function testWord(word) {
-  var result = undefined
-  if (word === 'plus') {
-    result = '+'
-  } else if (word === 'minus') {
-    result = '-'
-  } else if (word === 'multiplied' || word === 'times') {
-    result = '*'
-  } else if (word === 'divided' || word === '') {
-    result = '/'
-  } else if (!isNaN(word)) {
-    result = parseInt(word)
+  var answer = parseInt(question[0])
+  for (var i = 1; i < question.length; i++) {
+    if (question[i] in calculations) {
+      answer = calculations[question[i]](answer, parseInt(question[i + 1]))
+    }
   }
-  return result;
+  return answer
 }
 
-var calcs = {
-  '+': function(a, b) {
+var calculations = {
+  'plus': function(a, b) {
     return a + b
   },
-  '-': function(a, b) {
+  'minus': function(a, b) {
     return a - b
   },
-  '*': function(a, b) {
+  'multiplied': function(a, b) {
     return a * b
   },
-  '/': function(a, b) {
+  'times': function(a, b) {
+    return a * b
+  },
+  'divided': function(a, b) {
     return a / b
   }
 }
