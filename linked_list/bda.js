@@ -22,8 +22,8 @@ console.log(list.toString()); // [ ]
 list.insert(1).insert(2).insert(3).insert(4).insert(5);
 console.log(list.toString()); // [ 1, 2, 3, 4, 5 ]
 console.log(list.find(3)); // { value: 3, next... }
-list.remove(3);
-console.log(list.find(3)); // null
+list.remove(1);
+console.log(list.find(1)); // null
 console.log(list.toString()); // [ 1, 2, 4, 5 ]
 list.insert(3);
 console.log(list.toString()); // [ 1, 2, 4, 5, 3 ]
@@ -57,6 +57,9 @@ function find(privates, value) {
 
 function remove(privates, value) {
   var position = privates.head;
+  if (privates.head.value == value) {
+    privates.head = privates.head.next;
+  }
   while (position && position.next && position.next.value != value) {
     position = position.next;
   }
