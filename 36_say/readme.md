@@ -5,12 +5,14 @@ Write a program that will take a number from 0 to 999,999,999,999 and spell out 
 # Input
 
 A number
+
 `99`
 
 # Output
 
 The number in plain English
-`Ninety Nine`
+
+`ninety-nine`
 
 # Steps
 
