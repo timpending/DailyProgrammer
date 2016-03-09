@@ -68,3 +68,6 @@ Use and (correctly) when spelling out the number in English:
 120 becomes "one hundred and twenty".
 1002 becomes "one thousand and two".
 1323 becomes "one thousand three hundred and twenty-three".
+
+
+[Source](http://exercism.io/exercises/javascript/say/readme)
