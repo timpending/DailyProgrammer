@@ -65,15 +65,15 @@ describe('say', function () {
   });
 
   xit('raises an error below zero', function () {
-    expect(function () {
-      say.inEnglish(-1);
-    }).toThrow(new Error('Number must be between 0 and 999,999,999,999.'));
+    assert.throws(function() {
+      say.inEnglish(-1)
+    }, new Error('Number must be between 0 and 999,999,999,999.'));
   });
 
   xit('raises an error above 999,999,999,999', function () {
-    expect(function () {
-      say.inEnglish(1000000000000);
-    }).toThrow(new Error('Number must be between 0 and 999,999,999,999.'));
+    assert.throws(function() {
+      say.inEnglish(1000000000000)
+    }, new Error('Number must be between 0 and 999,999,999,999.'));
   });
 
 });
