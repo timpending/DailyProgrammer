@@ -16,8 +16,20 @@ A sequence of parentheses.
 
 True if the expression is valid. False otherwise.
 
-parensChecker("()(((())))") //=> true
+# Instructions
 
-parensChecker("())))(") //=> false
+Create a file with your initials in the solutions folder.
 
-parensChecker(")(") //=> false
+Update line 1 of test\test.js
+
+`var parensChecker = require('../solutions/yourfile.js');`
+
+Change "yourfile" to your initials file.
+
+To run the tests:
+
+cd into this folder (12_parensChecker)
+
+`npm install -g mocha`
+
+Run the command `mocha`

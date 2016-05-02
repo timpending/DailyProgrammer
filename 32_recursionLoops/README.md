@@ -8,7 +8,7 @@ Use recursion to solve [Fizz buzz](https://en.wikipedia.org/wiki/Fizz_buzz)!
 
 ### Recursion Example
 
-```
+```js
 var list = [1,2,3,4];
 addOne(list) // returns [2,3,4,5];
 
