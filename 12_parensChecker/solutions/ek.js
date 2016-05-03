@@ -1,6 +1,4 @@
-var input1 = "()(((())))";
-var input2 = "())))(";
-var input3 = ")(";
+module.exports = parensChecker;
 
 function parensChecker(parens){
   var opens = 0;
@@ -15,14 +13,11 @@ function parensChecker(parens){
     }
 
     if (parens[0] === '(' && parens[parens.length -1] === ')' && opens === closes){
-      result = 'yup';
+      result = true;
     } else {
-      result = 'nope';
+      result = false;
     }
   }
   console.log(result);
+  return result;
 }
-
-parensChecker(input1);
-parensChecker(input2);
-parensChecker(input3);

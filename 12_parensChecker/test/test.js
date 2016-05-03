@@ -1,4 +1,4 @@
-var parensChecker = require('../solutions/yourfile.js');
+var parensChecker = require('../solutions/ek.js');
 var assert = require('assert');
 
 describe('Parentheses Checker', function() {
