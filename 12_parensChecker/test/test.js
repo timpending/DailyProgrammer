@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-var parensChecker = require('../solutions/bj.js');
-=======
-var parensChecker = require('../solutions/ek.js');
->>>>>>> a1b77c1394668eb4f070fa127caba940f80f1909
+var parensChecker = require('../solutions/yourfile.js');
 var assert = require('assert');
 
 describe('Parentheses Checker', function() {
