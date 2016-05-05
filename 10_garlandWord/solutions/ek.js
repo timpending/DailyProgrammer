@@ -8,12 +8,7 @@ function garland(word){
     }
   }
   console.log(word, count);
+  return count;
 }
 
-garland('programmer'); //0
-garland('ceramic'); //1
-garland('onion'); //2
-garland('alfalfa'); //4
-garland('hotshots'); //4
-garland('abracadabra'); //4
-garland('couscous'); //4
+module.exports = garland;

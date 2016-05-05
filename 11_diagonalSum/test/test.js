@@ -1,4 +1,4 @@
-var diagnalSum = require('../solutions/ek.js');
+var diagonalSum = require('../solutions/yourfile.js');
 var assert = require('assert');
 
 var square4 =
@@ -16,9 +16,9 @@ var square5 =
   [1, 7, 7, 3, 0],
   [3, 3, 8, 2, 4]];
 
-describe('Parentheses Checker', function() {
+describe('Diagonal Sum', function() {
 
-  it('should check if diagnal sums are accurate', function() {
+  it('should check if diagonal sums are accurate', function() {
     assert(diagnalSum(square4) === 4);
     assert(diagnalSum(square5) === 19);
   });
