@@ -1,18 +1,18 @@
 // Created by Elana Kopelevich
 
-var input = 12345;
-
-function sumDigits(num){
+function sumDigits(num) {
+  'use strict';
   var sum = 0;
-  num = num.toString();
-  if (num.length > 1){
-    for (var i = 0; i < num.length; i++) {
-      sum = sum + parseInt(num[i]);
-    }
-    num = sum;
-    sumDigits(num);
+  var str = num.toString();
+  for (var i = 0; i < str.length; i++) {
+    sum = sum + parseInt(str[i]);
   }
-  console.log('sum: ', sum);
+  if (sum.toString().length > 1) {
+    sumDigits(sum);
+  } else {
+    console.log(sum);
+    return sum;
+  }
 }
 
-sumDigits(input);
+sumDigits(12345);
