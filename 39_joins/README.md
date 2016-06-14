@@ -3,11 +3,11 @@
 ## Description
 
 Relational Databases are awesome at doing joins given SQL.
-But, how good are you and your understanding at joins?
+But, how good are you and your understanding of joins?
 
-Create a function that takes in
+**Create a function that takes in
 2 arrays, 2 keys, and a new key,
-and returns a joined dataset.
+and returns a joined dataset.**
 
 The function should also remove the foreign key from
 the left object and put the right object in the new
