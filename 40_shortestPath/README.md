@@ -4,11 +4,11 @@ Talk through this problem and whiteboard the solution with a partner.
 
 ## Description
 
-Write an algorithm that finds the shortest distance between 2 nodes (identified by numbers), for example if you have the graph description below, the shortest distance between 1 and 8 is `1 > 5 > 2 > 7 > 8`.
+Write an algorithm that finds the shortest distance between 2 nodes (identified by numbers), for example if you have the graph description below, the shortest distance between 1 and 8 is `1 > 5 > 9 > 8`.
 
 ```
 var steps = [
-    {from:1, to:9},
+    {from:1, to:4},
     {from:1, to:5},
     {from:2, to:5},
     {from:2, to:7},
@@ -24,6 +24,6 @@ var steps = [
 
 ## Stretch
 
-Taking edge weights into consideration, find the shortest path with the lowest weight. For example, even though the path `5 > 9 > 8 > 6 > 3` is shorter than `5 > 2 > 7 > 8 > 6 > 3`, the second path has a lower weight.
+Taking edge weights into consideration, find the shortest path with the lowest weight. For example, even though the path `1 > 5 > 9 > 8 > 6 > 3` is shorter than `1 > 5 > 2 > 7 > 8 > 6 > 3`, the second path has a lower weight.
 
 ![graph](graph-with-weights.jpg)
