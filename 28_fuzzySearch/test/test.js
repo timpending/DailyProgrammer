@@ -1,5 +1,6 @@
 var expect = require('chai').expect
-var fuzzySearch = require('../solutions/bda')
+// TODO: change the name from me.js to your file name inside the solutions folder
+var fuzzySearch = require('../solutions/me.js')
 
 var names = ["mike", "fred", "rob", "dave", "jack", "marry", "mark", "jim", "jill", "june", "jess", "grey", "greg", "mark", "jenn", "richard", "robert"]
 
@@ -25,7 +26,7 @@ describe("fuzzy-search", function() {
 		});
 	});
 	describe("remove duplicates", function() {
-		it("should remove duplicates from the result list", function() {
+		xit("should remove duplicates from the result list", function() {
 			var result = fuzzySearch('mark', names);
 			expect(result).to.deep.equal(['mark']);
 		});

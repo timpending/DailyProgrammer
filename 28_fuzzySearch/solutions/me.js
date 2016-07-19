@@ -1,3 +1,3 @@
 module.exports = function(word, array) {
-	return "so fuzzy inside" 
+	return "So fuzzy inside."
 }
