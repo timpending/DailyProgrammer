@@ -49,4 +49,4 @@ var fizzBuzz = function(end, i){
 }
 
 
-console.log(fizzBuzz(30, 1));
+console.log(fizzBuzz(90, 1));
