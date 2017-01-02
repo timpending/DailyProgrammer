@@ -7,5 +7,3 @@ function path(array) {
     else return (difference < 0) ? 'down' : 'up';
   });
 }
-
-console.log(path([6,3,5,4,3,4,4,5]));
