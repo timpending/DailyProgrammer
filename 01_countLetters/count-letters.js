@@ -1,4 +1,6 @@
-function letterCount(str) {
+function LetterCount() {};
+
+LetterCount.prototype.letterCountObj = function(str) {
   str = str.replace(/\W/g, '').replace(/[0-9]+/g, '').toLowerCase();
 
   let obj = {}
@@ -14,4 +16,4 @@ function letterCount(str) {
 
 let string = "The quick brown fox jumps over the lazy dog and the sleeping cat early in the day."
 
-console.log(letterCount(string));
+module.exports = LetterCount;

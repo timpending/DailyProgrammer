@@ -1,0 +1,15 @@
+{
+  "name": "ramp-numbers",
+  "version": "1.0.0",
+  "description": "A ramp number is a number whose digits from left to right either only rise or stay the same. 1234 is a ramp number as is 1124. 1032 is not.",
+  "main": "rampNumbers.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "TIM PENDER",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
