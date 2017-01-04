@@ -15,12 +15,4 @@ Palindrome.prototype.pTest = function(string){
   return stripString === reverseString
 }
 
-// console.log(palindrome('hello'));
-// console.log(palindrome('race car'));
-// console.log(palindrome('Amor, Roma'));
-// console.log(palindrome('A man, a plan, a canal, Panama!'));
-// console.log(palindrome('step on no pets'));
-// console.log(palindrome('Was it a car or a cat I saw?'));
-// console.log(palindrome("No 'x' in Nixon"));
-
 module.exports = Palindrome;
