@@ -1,4 +1,6 @@
-function anagramTest(x, y){
+function Anagram(){};
+
+Anagram.prototype.aTest = function(x, y){
   if (x && y && x !== y && x.length!==0 && y.length !== 0) {
       return x.replace(/[^a-z]/ig, "").toLowerCase().split("").sort().join("") === y.replace([/[^a-z]/ig], "").toLowerCase().split("").sort().join("")
     } else {
@@ -6,9 +8,4 @@ function anagramTest(x, y){
     }
 }
 
-
-console.log(anagramTest("pameesxl","examples"));
-console.log(anagramTest("abb", "ab"))
-console.log(anagramTest("cab", "abc"));
-console.log(anagramTest("cab", "cab"));
-console.log(anagramTest("123", ""));
+module.exports = Anagram
