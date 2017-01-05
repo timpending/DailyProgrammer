@@ -1,0 +1,15 @@
+{
+  "name": "longest-string",
+  "version": "1.0.0",
+  "description": "Write a function that returns the longest string in the array and it's length as an object.",
+  "main": "longestString.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Tim Pender",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
