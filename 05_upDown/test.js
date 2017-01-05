@@ -1,9 +1,11 @@
-// TEST NEEDED
+const {expect} = require('chai');
+const upDown = require('./upDown.js');
 
-var expect = require('chai').expect;
-
-describe('example test', function(){
-  it('pass true when true', function () {
-    expect(true).to.be.true;
+describe('Equality Test from Readme', () => {
+  it('returns the correct array of up/down strings', () => {
+    let array = [6,3,5,4,3,4,4,5];
+    expect(upDown(array)).to.deep.equal(
+      [ 'down', 'up', 'down', 'down', 'up', 'even', 'up' ]
+    );
   });
 });

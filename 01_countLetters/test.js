@@ -1,22 +1,20 @@
-var expect = require('chai').expect;
-var LetterCount = require('./count-letters')
+const {expect} = require('chai')
+const letterCount = require('./count-letters.js')
 
-describe('Hello Object', function(){
-  it('Count Letters and return correct object', function () {
-    var letterCount = new LetterCount();
+describe('Hello Object', ()=>{
+  it('Count Letters and return correct object',  ()=> {
     let string = "hello";
-    expect(letterCount.letterCountObj(string)).to.deep.equal(
+    expect(letterCount(string)).to.deep.equal(
       { 'h':1, 'e': 1, 'l':2, 'o':1}
     );
   });
 });
 
-describe('Full Alphabet Test', function(){
-  it('Count Letters and return correct object', function () {
-    var letterCount = new LetterCount();
+describe('Full Alphabet Test',()=>{
+  it('Count Letters and return correct object',()=> {
     let string = "The quick brown fox jumps over the lazy dog and the sleeping cat early in the day.";
 
-    expect(letterCount.letterCountObj(string)).to.deep.equal(
+    expect(letterCount(string)).to.deep.equal(
       { 't': 5,
       'h': 4,
       'e': 8,

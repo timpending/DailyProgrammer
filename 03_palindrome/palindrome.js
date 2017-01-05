@@ -7,12 +7,10 @@
 // Split edited string into array, reverse order, join
 // test if reversed,joined array is equal to edited string
 
-function Palindrome() {};
-
-Palindrome.prototype.pTest = function(string){
+const palindrome = function(string){
   let stripString = string.match(/[a-zA-Z]+/g).join('').toLowerCase();
   let reverseString = stripString.split('').reverse().join('').toLowerCase();
   return stripString === reverseString
 }
 
-module.exports = Palindrome;
+module.exports = palindrome;

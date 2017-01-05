@@ -1,7 +1,5 @@
-function RampTest(){};
-
-RampTest.prototype.rampTest = function(int) {
+const rampTest = function(int) {
   return Number(int.toString().split('').sort().join('')) === int
 };
 
-module.exports = RampTest
+module.exports = rampTest

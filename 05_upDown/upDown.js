@@ -10,5 +10,4 @@ const upDown = (array) => {
   return output.slice(1)
 }
 
-
-console.log(upDown([6,3,5,4,3,4,4,5]));
+module.exports = upDown;

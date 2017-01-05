@@ -1,40 +1,35 @@
-var expect = require('chai').expect;
-var Anagram = require('./anagram')
+const {expect} = require('chai');
+const anagram = require('./anagram');
 
-describe('example test', function(){
-  it('pass true when true', function () {
-    let test = new Anagram();
-    expect(test.aTest("pameesxl","examples")).to.be.true;
+describe('example test', () => {
+  it('pass true when true', () => {
+    expect(anagram("pameesxl","examples")).to.be.true;
   });
 });
 
-describe('false test', function(){
-  it('passes false', function () {
-    let test = new Anagram();
-    expect(test.aTest("abb", "ab")).to.be.false;
+describe('false test', () => {
+  it('passes false', () => {
+    expect(anagram("abb", "ab")).to.be.false;
   });
 });
 
-describe('true test', function(){
-  it('passes true', function () {
-    let test = new Anagram();
-    expect(test.aTest("cab", "abc")).to.be.true;
+describe('true test', () => {
+  it('passes true', () => {
+    expect(anagram("cab", "abc")).to.be.true;
   });
 });
 
-describe('samesies', function(){
-  it('returns exception string', function () {
-    let test = new Anagram();
-    expect(test.aTest("cab", "cab")).to.deep.equal(
+describe('samesies', () => {
+  it('returns exception string', () => {
+    expect(anagram("cab", "cab")).to.deep.equal(
       "There is an error with one of your strings. Alpha characters only, non-identical strings, and no empty strings please!"
     )
   });
 });
 
-describe('empty string', function(){
-  it('returns exception string', function () {
-    let test = new Anagram();
-    expect(test.aTest("123", "")).to.deep.equal(
+describe('empty string', () => {
+  it('returns exception string', () => {
+    expect(anagram("123", "")).to.deep.equal(
       "There is an error with one of your strings. Alpha characters only, non-identical strings, and no empty strings please!"
     )
   });

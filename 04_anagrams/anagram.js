@@ -1,6 +1,4 @@
-function Anagram(){};
-
-Anagram.prototype.aTest = function(x, y){
+const anagram = function(x, y){
   if (x && y && x !== y && x.length!==0 && y.length !== 0) {
       return x.replace(/[^a-z]/ig, "").toLowerCase().split("").sort().join("") === y.replace([/[^a-z]/ig], "").toLowerCase().split("").sort().join("")
     } else {
@@ -8,4 +6,4 @@ Anagram.prototype.aTest = function(x, y){
     }
 }
 
-module.exports = Anagram
+module.exports = anagram;
